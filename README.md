@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # public-tools-and-demos
 
 This monorepo contains several public-facing Mapbox demos and developer tools, along with a library of common react components.
@@ -74,3 +75,6 @@ All projects should use the common accessToken from the `labs-sandbox` account, 
 ```
 import AccessToken from 'demo-components'
 ```
+=======
+# mapbox-realestate
+>>>>>>> origin/main

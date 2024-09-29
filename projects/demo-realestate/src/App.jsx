@@ -17,6 +17,25 @@ import './styles.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMap, faList } from '@fortawesome/free-solid-svg-icons'
 
+function Footer() {
+  return (
+    <footer className="bg-gray-800 text-white py-4 text-center">
+      <p>
+        Developed and maintained by{' '}
+        <a 
+          href="https://apexstrive.ca/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-300 hover:text-blue-100 transition-colors"
+        >
+          ApexStrive
+        </a>{' '}
+        and Zamzam InfoHub
+      </p>
+    </footer>
+  );
+}
+
 export default function Home() {
   // the data to be displayed on the map (this is static, but could be updated dynamically as the map view changes)
   const [currentViewData, setCurrentViewData] = useState([])
